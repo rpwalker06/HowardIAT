@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.List;
 import javax.swing.*;
 
-class implicitTestRun {
+public class implicitTestRun {
 	
 	//create the main frame for the experiment
 	JFrame frame = new JFrame("Howard Implicit Association Test");
@@ -13,7 +13,7 @@ class implicitTestRun {
 	//initialize a handle to a content pane
 	Container contentHolder = new Container();
 		
-	implicitTestRun (String nameConfig, String idParticipant, String nameParticipant, List<experimentView> work) throws IOException, NumberFormatException
+	public implicitTestRun (String nameConfig, String idParticipant, String nameParticipant, List<experimentView> work) throws IOException, NumberFormatException
 	{
             implicitOutputWriter writer;
             

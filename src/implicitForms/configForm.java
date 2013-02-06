@@ -2,8 +2,11 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package implicit;
+package implicitForms;
 
+import implicit.Stimulus;
+import implicit.experimentView;
+import implicit.implicitAssociationXMLWriter;
 import java.awt.Component;
 import java.awt.Graphics2D;
 import java.awt.RenderingHints;

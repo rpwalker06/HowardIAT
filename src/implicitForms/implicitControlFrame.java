@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package implicit;
+package implicitForms;
 
 /**
  *
@@ -10,7 +10,6 @@ package implicit;
  */
 public class implicitControlFrame extends javax.swing.JFrame {
 
-    
     configForm formConfig;
     testStartForm startForm;
     
@@ -97,8 +96,6 @@ public class implicitControlFrame extends javax.swing.JFrame {
         startForm.setVisible(true);
     }
             
-    
-    
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btn_CreateConfiguration;
     private javax.swing.JButton btn_StartFromExisting;

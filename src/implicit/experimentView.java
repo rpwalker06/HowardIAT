@@ -23,7 +23,7 @@ public class experimentView {
 	public boolean isleft;
         int panelType;
         
-        experimentView(Stimulus[] stimulusGroup, int typePanel, boolean rightLeft)
+        public experimentView(Stimulus[] stimulusGroup, int typePanel, boolean rightLeft)
         {
             panelType = typePanel;
                     
@@ -84,20 +84,4 @@ public class experimentView {
             stimulusArray[FOCUS_INDEX] = stimulusGroup[FOCUS_INDEX];
         }
         
-}
-
-//class to define the on-screen objects
-//it is meant to be flexible enough to obscure the details about the type of stimulus it is
-class Stimulus {
-	
-	boolean isText;
-	String entry="";
-	
-	Stimulus ( String enter, boolean textEntry )
-	{
-            isText = textEntry;
-
-            //Constructor: check if the Stimulus is a picture or text and assign accordingly 
-            if (isText) {entry = enter;} else {entry = enter;}
-	}
 }

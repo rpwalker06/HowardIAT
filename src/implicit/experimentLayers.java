@@ -1,5 +1,8 @@
 package implicit;
 
+import implicitForms.announcePanel;
+import implicitForms.fourStimulusPanel;
+import implicitForms.twoStimulusPanel;
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Dimension;

@@ -2,8 +2,11 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package implicit;
+package implicitForms;
 
+import implicit.experimentView;
+import implicit.implicitAssociationXMLReader;
+import implicit.implicitTestRun;
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
@@ -53,10 +56,8 @@ public class testStartForm extends javax.swing.JFrame {
         btn_SelectConfig = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMaximumSize(new java.awt.Dimension(800, 300));
         setMinimumSize(new java.awt.Dimension(250, 200));
         setName("frm_testStart"); // NOI18N
-        setPreferredSize(new java.awt.Dimension(575, 200));
         setResizable(false);
         getContentPane().setLayout(new javax.swing.BoxLayout(getContentPane(), javax.swing.BoxLayout.LINE_AXIS));
 
